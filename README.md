@@ -9,7 +9,8 @@ Total would be less than 24 hours but there were a lot of reading and thinking i
 so total would be more than that I think.
 
 Required Tasks:
-* [x] Users can calculate tips using this app. (18%, 20%, 22%)
+* [x] Users can input bill amount to calculate tips. (18%, 20%, 22%)
+* [x] Users can view their tip amount and total amount
 
 Optional Tasks:
 * [x] Changed the colors/fonts
