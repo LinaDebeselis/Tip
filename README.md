@@ -21,3 +21,5 @@ Added images to Image Assets
 Added customized keyboard to input
 Added constratins to elements
 Used auto layout
+
+<a href="http://imgur.com/AuE7Veh"><img src="http://i.imgur.com/AuE7Veh.gif" title="source: imgur.com" /></a>
