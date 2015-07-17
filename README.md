@@ -5,7 +5,7 @@ This is an iOS app for calculating tips. (max amount users could input is $9999.
 
 Time spent: I spent 4 hours the first time with the video and the basic app set up, 
 including making the customized keyboard. After that, it was many hours of reading and trying. 
-Total would be less than 24 hours but there were a lot of reading and thinking inbetween,
+Total would be less than 24 hours but there were a lot of reading and thinking in between,
 so total would be more than that I think.
 
 Required Tasks:
