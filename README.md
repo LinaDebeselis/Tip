@@ -18,6 +18,7 @@ Optional Tasks:
 * [x] Added a custom font
 * [x] Added app icons and launch image
 * [x] Added animation to the input text (shake)
+* [x] Added animation to totalLabel
 * [x] Added images to Image Assets
 * [x] Added customized keyboard to input
 * [x] Added constratins to elements
@@ -26,6 +27,6 @@ Optional Tasks:
 
 Below is my demo of this app. The recording doesn't show the shake effect for input text too well. The actual app shakes smoother and faster :)
 
-<a href="http://imgur.com/AuE7Veh"><img src="http://i.imgur.com/AuE7Veh.gif" title="source: imgur.com" /></a>
+<a href="http://imgur.com/92oYQjF"><img src="http://i.imgur.com/AuE7Veh.gif" title="source: imgur.com" /></a>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
