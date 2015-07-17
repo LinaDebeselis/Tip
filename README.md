@@ -27,6 +27,6 @@ Optional Tasks:
 
 Below is my demo of this app. The recording doesn't show the shake effect for input text too well. The actual app shakes smoother and faster :) Also I don't know why but the fading animation is now shown well here either. It looks fine even on imgur. 
 
-<a href="http://imgur.com/92oYQjF"><img src="http://i.imgur.com/AuE7Veh.gif" title="source: imgur.com" /></a>
+<a href="http://imgur.com/92oYQjF"><img src="http://i.imgur.com/92oYQjF.gif" title="source: imgur.com" /></a>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
