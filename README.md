@@ -1,7 +1,7 @@
 # Tip
 Tippy Tippy
 
-This is an iOS app for calculating tips. (max amount users could input is $9999.99)
+This is an iOS app with customized keyboard for calculating tips. (max amount users could input is $9999.99)
 
 Time spent: I spent 4 hours the first time with the video and the basic app set up, 
 including making the customized keyboard. After that, it was many hours of reading and trying. 
