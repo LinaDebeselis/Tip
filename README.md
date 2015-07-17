@@ -9,7 +9,7 @@ Total would be less than 24 hours but there were a lot of reading and thinking i
 so total would be more than that I think.
 
 Required Tasks:
-Users can calculate tips using this app
+Users can calculate tips using this app. (18%, 20%, 22%)
 
 Optional Tasks:
 Changed the colors/fonts
@@ -21,5 +21,7 @@ Added images to Image Assets
 Added customized keyboard to input
 Added constratins to elements
 Used auto layout
+
+Below is my demo of this app. The recording doesn't show the shake effect for input text too well. The actual app shakes smoother and faster :)
 
 <a href="http://imgur.com/AuE7Veh"><img src="http://i.imgur.com/AuE7Veh.gif" title="source: imgur.com" /></a>
