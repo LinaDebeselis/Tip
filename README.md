@@ -18,7 +18,7 @@ Optional Tasks:
 * [x] Added a custom font
 * [x] Added app icons and launch image
 * [x] Added animation to the input text (shake)
-* [x] Added animation to totalLabel
+* [x] Added animation to totalLabel (animateWithDuration)
 * [x] Added images to Image Assets
 * [x] Added customized keyboard to input
 * [x] Added constratins to elements
