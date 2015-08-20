@@ -18,27 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SeH-Z3-at4">
-                                <rect key="frame" x="165" y="66" width="130" height="33"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="130" id="S2r-M2-dt1"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tippy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5tx-1K-pyq">
-                                <rect key="frame" x="138" y="20" width="44" height="21"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" image="YES" staticText="YES"/>
-                                </accessibility>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Eom-RO-RIf"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="2S6-eJ-afr">
                                 <rect key="frame" x="16" y="119" width="288" height="29"/>
                                 <segments>
@@ -516,13 +495,25 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="qcM-ME-hQK">
+                                <rect key="frame" x="138" y="30" width="45" height="20"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SeH-Z3-at4">
+                                <rect key="frame" x="165" y="66" width="130" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="S2r-M2-dt1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.65098039215686276" green="0.5725490196078431" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="hAY-Yb-PRL" secondAttribute="trailing" constant="9" id="2ZC-fK-dYG"/>
                             <constraint firstItem="Rdx-BU-rLJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="4ON-T5-Mo4"/>
-                            <constraint firstAttribute="centerX" secondItem="5tx-1K-pyq" secondAttribute="centerX" id="FRt-1F-nYy"/>
+                            <constraint firstAttribute="centerX" secondItem="qcM-ME-hQK" secondAttribute="centerX" id="En3-3r-rKx"/>
                             <constraint firstItem="7hG-lX-nvb" firstAttribute="top" secondItem="hAY-Yb-PRL" secondAttribute="bottom" id="SRK-wi-WIk"/>
                             <constraint firstAttribute="trailingMargin" secondItem="SeH-Z3-at4" secondAttribute="trailing" constant="9" id="Xjr-cP-Et7"/>
                             <constraint firstItem="hAY-Yb-PRL" firstAttribute="top" secondItem="2S6-eJ-afr" secondAttribute="bottom" constant="22" id="YPr-1t-kzA"/>
@@ -535,8 +526,8 @@
                             <constraint firstItem="7hG-lX-nvb" firstAttribute="leading" secondItem="6te-57-f5f" secondAttribute="trailing" constant="-4" id="l7i-kR-yIo"/>
                             <constraint firstItem="SeH-Z3-at4" firstAttribute="top" secondItem="oL8-Ko-c5j" secondAttribute="bottom" constant="46" id="lzM-Xd-WV9"/>
                             <constraint firstAttribute="centerX" secondItem="2S6-eJ-afr" secondAttribute="centerX" id="sJu-7o-z6Z"/>
+                            <constraint firstItem="qcM-ME-hQK" firstAttribute="top" secondItem="oL8-Ko-c5j" secondAttribute="bottom" constant="10" id="uaI-zu-4rQ"/>
                             <constraint firstItem="2S6-eJ-afr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="w8s-FT-Sqf"/>
-                            <constraint firstItem="5tx-1K-pyq" firstAttribute="top" secondItem="oL8-Ko-c5j" secondAttribute="bottom" id="xdQ-wr-T3U"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="znW-zo-ZGX" appends="YES" id="G7k-Nx-Z0u"/>
@@ -568,9 +559,12 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="312" y="217"/>
+            <point key="canvasLocation" x="284" y="233"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="myLogo.png" width="45" height="20"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

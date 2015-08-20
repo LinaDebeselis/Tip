@@ -13,6 +13,11 @@
 		AE4625171B349A0400ACD431 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4625161B349A0400ACD431 /* Images.xcassets */; };
 		AE46251A1B349A0400ACD431 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE4625181B349A0400ACD431 /* LaunchScreen.xib */; };
 		AE4625261B349A0400ACD431 /* TipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4625251B349A0400ACD431 /* TipTests.swift */; };
+		AE46255F1B57907F00ACD431 /* launchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = AE46255D1B57907F00ACD431 /* launchimage.png */; };
+		AE4625601B57907F00ACD431 /* launchimage2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE46255E1B57907F00ACD431 /* launchimage2.png */; };
+		AE4625621B5795A600ACD431 /* tippy_120.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4625611B5795A500ACD431 /* tippy_120.png */; };
+		AE4625641B5795E500ACD431 /* tippy_03.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4625631B5795E500ACD431 /* tippy_03.png */; };
+		AE46256A1B58C4A100ACD431 /* myLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4625691B58C4A100ACD431 /* myLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		AE46251F1B349A0400ACD431 /* TipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4625241B349A0400ACD431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE4625251B349A0400ACD431 /* TipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipTests.swift; sourceTree = "<group>"; };
+		AE46255D1B57907F00ACD431 /* launchimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchimage.png; sourceTree = "<group>"; };
+		AE46255E1B57907F00ACD431 /* launchimage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchimage2.png; sourceTree = "<group>"; };
+		AE4625611B5795A500ACD431 /* tippy_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tippy_120.png; sourceTree = "<group>"; };
+		AE4625631B5795E500ACD431 /* tippy_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tippy_03.png; sourceTree = "<group>"; };
+		AE4625691B58C4A100ACD431 /* myLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +90,8 @@
 				AE46250F1B349A0400ACD431 /* AppDelegate.swift */,
 				AE4625111B349A0400ACD431 /* ViewController.swift */,
 				AE4625131B349A0400ACD431 /* Main.storyboard */,
-				AE4625161B349A0400ACD431 /* Images.xcassets */,
 				AE4625181B349A0400ACD431 /* LaunchScreen.xib */,
+				AE4625161B349A0400ACD431 /* Images.xcassets */,
 				AE46250D1B349A0400ACD431 /* Supporting Files */,
 			);
 			path = Tip;
@@ -90,6 +100,11 @@
 		AE46250D1B349A0400ACD431 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AE4625691B58C4A100ACD431 /* myLogo.png */,
+				AE4625611B5795A500ACD431 /* tippy_120.png */,
+				AE4625631B5795E500ACD431 /* tippy_03.png */,
+				AE46255D1B57907F00ACD431 /* launchimage.png */,
+				AE46255E1B57907F00ACD431 /* launchimage2.png */,
 				AE46250E1B349A0400ACD431 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +207,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE4625621B5795A600ACD431 /* tippy_120.png in Resources */,
+				AE46255F1B57907F00ACD431 /* launchimage.png in Resources */,
 				AE4625151B349A0400ACD431 /* Main.storyboard in Resources */,
 				AE46251A1B349A0400ACD431 /* LaunchScreen.xib in Resources */,
+				AE46256A1B58C4A100ACD431 /* myLogo.png in Resources */,
+				AE4625601B57907F00ACD431 /* launchimage2.png in Resources */,
 				AE4625171B349A0400ACD431 /* Images.xcassets in Resources */,
+				AE4625641B5795E500ACD431 /* tippy_03.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +429,7 @@
 				AE46252B1B349A0400ACD431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE46252C1B349A0400ACD431 /* Build configuration list for PBXNativeTarget "TipTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +438,7 @@
 				AE46252E1B349A0400ACD431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -104,13 +104,25 @@ class ViewController: UIViewController, UITextFieldDelegate
         } else {
             let animation = CABasicAnimation(keyPath: "position")
             animation.duration = 0.05
-            animation.repeatCount = 2
+            animation.repeatCount = 4
             animation.autoreverses = true
             animation.fromValue = NSValue(CGPoint: CGPointMake(billLabel.center.x - 10, billLabel.center.y))
             animation.toValue = NSValue(CGPoint: CGPointMake(billLabel.center.x + 10, billLabel.center.y))
             billLabel.layer.addAnimation(animation, forKey: "position")
         }
         onEditingChanged(billLabel)
+        
+        self.totalLabel.alpha = 0.1
+        UIView.animateWithDuration(1.5, delay: 0.1, options: UIViewAnimationOptions.CurveEaseOut, animations: {
+            self.totalLabel.alpha = 1
+        }, completion:nil)
+        
+        
+        UIView.animateWithDuration(0.9, delay: 0.0, usingSpringWithDamping: 0.3, initialSpringVelocity: 0.0, options: .CurveLinear, animations: {
+            
+            self.totalLabel.center = CGPoint(x: 200, y:60 )
+            }, completion: nil)
+        
     }
 
     func validateInput(input: String) -> Bool {
