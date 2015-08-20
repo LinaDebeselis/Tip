@@ -29,4 +29,9 @@ Below is my demo of this app. The recording doesn't show the shake effect for in
 
 <a href="http://imgur.com/92oYQjF"><img src="http://i.imgur.com/92oYQjF.gif" title="source: imgur.com" /></a>
 
+[Update]
+Added another animation effect to the total bill label. Below is the demo for that part. It's not the most appropriate effect to have here though. I'm still trying to figure out how to deconstruct each letter into a glyph but now I'm traveling in China, it's a bit hard to dive in.
+
+<a href="http://imgur.com/M0mnXoP"><img src="http://i.imgur.com/M0mnXoP.gif" title="source: imgur.com" /></a>
+
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
